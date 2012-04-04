@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tasks</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<% flash.each do |name, message| %>
+  <!-- <div id="flash_<%= name %>">
+    <%= message %>
+  </div>  Same as below-->
+  <%= content_tag :div, message, :id => "flash_#{name}" %>
+<% end %>
+
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#flash_notice {
+  background: green;
+  border: 1px solid darken(green, 20%);
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+
+#flash_error {
+  background: red;
+  border: 1px solid darken(red, 20%);
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+
+#flash_ {
+  background: green;
+  border: 1px solid darken(green, 20%);
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
